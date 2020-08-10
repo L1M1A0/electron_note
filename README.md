@@ -38,8 +38,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### 环境安装
 Mac下vue-cli的全局安装和卸载
 查看版本：vue -V
+
 确定是否安装
+
 2.0版本升级
+
 卸载：
 1. 首先需要开放用户权限：
 sudo chmod -R 777 /usr/local/lib/node_modules/
@@ -56,6 +59,7 @@ tips：失败可以尝试使用管理员身份安装和卸载
 ### 参考文章
 Electron 入门 - Electron的进程介绍及创建项目的三种方式
 https://www.jianshu.com/p/153ca73b7e46
+
 electron教程系列
 https://www.cnblogs.com/silenzio/p/11580104.html
 
@@ -67,9 +71,11 @@ https://www.cnblogs.com/silenzio/p/11580104.html
 1.1.1 安装npm,vue-cli，如果安装失败，可能需要开启权限
 1.1.2 使用vue-cli创建项目：vue create 项目名称
 1.1.3 Vue项目中引入electron发布桌面应用：vue add electron-builder（注：https://www.cnblogs.com/ezhar/p/13163595.html）
+
 1.2 思路：
 1.2.1 用vue-cli创建项目，同时可以用vue命令语句来安装其他依赖
 1.2.2 配置electron的开发环境
+
 1.3 创建流程示例
 1.3.1 cd /Users/baothink/Desktop/未命名文件夹
 1.3.2 vue create zbmusic（注：创建项目，然后开始设置基础配置信息）
@@ -85,6 +91,7 @@ https://www.cnblogs.com/donghuang/p/12297148.html
 
 ### 增加其他框架 
 1. element-ui：vue add element。前端ui框架
+
 2. umy-ui：npm install umy-ui。用来解决element-ui加载大量列表的时候，卡顿的问题。替代作用
 
 
