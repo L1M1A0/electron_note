@@ -1,4 +1,4 @@
-# music
+# electron-note
 
 ## Project setup
 ```
@@ -31,8 +31,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 注：用于node_modules文件太大了，所以在上传到github等的时候将其删除，但需要重新配置
 
 1. cd 项目目录
-2. npm install。配置node_modules依赖，会自动把原工程中已经配置好的依赖都安装完成。
-3. npm run electron:serve。运行查看安装之后是否能正确显示
+2. npm install。 注：配置node_modules依赖，会自动把原工程中已经配置好的依赖都安装完成。
+3. npm run electron:serve。注：运行查看安装之后是否能正确显示
 
 
 ### 环境安装
