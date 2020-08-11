@@ -1,8 +1,8 @@
-·<template>
+<template>
   <div>
     <p style="margin: 20px 0;">
       <el-button @click="setData(3)">变化数据为3条</el-button>
-      <el-button @click="setData(2000)">变化数据为2000条</el-button>
+      <el-button @click="setData(2000)">变化数据为20002条</el-button>
       <el-button @click="setData(5000)">变化数据为5000条</el-button>
       <el-button @click="opendialog">打开</el-button>
 
@@ -24,6 +24,8 @@
   // const {
   //   dialog
   // } = require('electron').remote;
+  // const { ipcRenderer } = window.require('electron');
+  
   export default {
     data() {
       return {
@@ -59,7 +61,7 @@
         this.$refs.plTable.reloadData(data)
       },
       opendialog() {
-        
+
         // dialog.showOpenDialog({
         //   properties: ['openFile', 'openDirectory', 'multiSelections'],
         //   filters: [{
@@ -84,6 +86,7 @@
         // }).catch(err => {
         //   console.log('err', err);
         // })
+       
 
       }
     }

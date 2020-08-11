@@ -60,6 +60,7 @@ https://www.cnblogs.com/silenzio/p/11580104.html
 ### 从零开始创建 electron 工程
 
 方法1. 使用vue-cli创建electron项目（在预览程序Launching Electron的时候耗时比较长，文件比较大）
+
 1.1 步骤如下：
 
 1.1.1 安装npm,vue-cli，如果安装失败，可能需要开启权限
@@ -76,7 +77,7 @@ https://www.cnblogs.com/silenzio/p/11580104.html
 
 1.3 创建流程示例
 
-1.3.1 cd /Users/baothink/Desktop/未命名文件夹
+1.3.1 cd /Users/LZBiao/Desktop/未命名文件夹
 
 1.3.2 vue create zbmusic（注：创建项目，然后开始设置基础配置信息）
 
@@ -90,6 +91,7 @@ https://www.cnblogs.com/silenzio/p/11580104.html
 
 
 方法3：(按照教程操作)
+
 https://www.cnblogs.com/donghuang/p/12297148.html
 
 
